@@ -1,0 +1,21 @@
+ 
+{
+    "name": "Pyrobot",
+    "description": "Nothing to read here.",
+    "repository": "https://github.com/AntXpras/pyrobot",
+    "logo": "https://telegra.ph/file/d891a8efea1c1afff4e05.jpg",
+    "keywords": [
+        "python",
+        "telegram",
+        "pyrogram"
+    ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
